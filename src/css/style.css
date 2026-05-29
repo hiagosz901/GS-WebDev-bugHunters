@@ -450,6 +450,11 @@ footer {
 
 /* FORM */
 
+.formulario{
+  background-color: var(--cinza-esc);
+ 
+}
+
 #form-Contato{
   display: flex;
   flex-direction: column;
