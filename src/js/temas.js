@@ -17,5 +17,11 @@ function temaVerde(){
 
 }
 
+function temaVermelho(){
+
+  document.documentElement.style.setProperty(
+    '--verde',
+    '#ee0a0a'
+  );
 
 }
