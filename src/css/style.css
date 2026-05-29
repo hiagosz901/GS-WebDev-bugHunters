@@ -72,6 +72,44 @@ nav {
 }
 .nav-links a:hover { color: var(--verde); }
 
+.themes{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.themes button{
+    padding: 6px 12px;
+    border: 1px solid var(--cinza-bord);
+    border-radius: 6px;
+    background: transparent;
+    color: var(--txt-claro);
+    font-size: 0.75rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Verde */
+.themes button:nth-child(1):hover{
+    background: #2dcc7a;
+    border-color: #2dcc7a;
+    color: #111;
+}
+
+/* Azul */
+.themes button:nth-child(2):hover{
+    background: #3498db;
+    border-color: #3498db;
+    color: white;
+}
+
+/* Claro */
+.themes button:nth-child(3):hover{
+    background: #fa0909;
+    border-color: #ff0909;
+    color: #f5f5f5;
+}
+
 /* ===== HERO ===== */
 #hero {
   min-height: 100vh;
